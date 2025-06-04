@@ -1,0 +1,36 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+
+    .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #f6f5fa; 
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+    i{
+    margin-right: 30px;
+    margin-top: 20px;
+    color: white;
+  }
+  img{
+    width: 40%;
+  }
+}
