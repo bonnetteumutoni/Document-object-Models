@@ -1,8 +1,7 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    background-color: green;
-
+    background-color: rgb(18, 34, 18);
     .navbar {
     display: flex;
     justify-content: center;
@@ -16,6 +15,7 @@
   
   .navbar ul li {
     margin: 0 15px;
+    padding-right: 50px;
   }
   
   .navbar ul li a {
