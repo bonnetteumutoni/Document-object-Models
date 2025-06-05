@@ -16,14 +16,14 @@
         <div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Products</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#second-heading">Gallery</a></li>
+                    <li><a href="#third-heading">Products</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div><i class="fa-solid fa-cart-shopping"></i></div>
+        <div><a href="#on-click"><i class="fa-solid fa-cart-shopping"></i></a></div>
     </div>
     </div>
     <div id="img-container">
@@ -36,15 +36,30 @@
         <ul id="fruList">
            <div id="mango-img">
              <img src="Images/mango.jpg"/>
-             <li>Mangoes</li>
+             <li id="mango-item">Mangoes</li>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <div id="cart-like">
+                <div><button id="on-click" class="first-frui-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="first-icon-frui"></i></div>
+            </div>
            </div> 
             <div id="banana-img">
                 <img src="Images/banana.jpg"/>
-              <li>Bananas</li>
+              <li id="banana-item">Bananas</li>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <div id="cart-like">
+                <div><button id="on-click" class="second-frui-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="second-icon-frui"></i></div>
+            </div>
             </div>
             <div id="melon-img">
             <img src="Images/water-melon.jpg"/>
-            <li>Water Melons</li>
+            <li id="melon-item">Water Melons</li>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <div id="cart-like">
+                <div><button id="on-click" class="last-frui-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="last-icon-frui"></i></div>
+            </div>
             </div>
             
         </ul>
@@ -52,18 +67,34 @@
         <ul id="vegList">
             <div id="onion-img">
             <img src="Images/onions.jpg"/>
-            <li>Onions</li>
+            <li id="onion-item">Onions</li>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <div id="cart-like">
+                <div><button id="on-click" class="first-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="first-icon"></i></div>
+            </div>
             </div>
             <div id="tomato-img">
             <img src="Images/tomatoes.jpg"/>
-             <li>Tomatoes</li>
+             <li id="tomato-item">Tomatoes</li>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+             <div id="cart-like">
+                <div><button id="on-click" class="second-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="second-icon"></i></div>
+            </div>
             </div>
             <div id="kales">
             <img src="Images/kales.jpg"/>
-              <li>Kales</li>
+              <li id="kale-item">Kales</li>
+              <i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <div id="cart-like">
+                <div><button id="on-click" class="last-button">+Cart</button></div>
+                <div><i class="fa-solid fa-heart" id="last-icon"></i></div>
+            </div>
             </div>
             
         </ul>
+        <div class="footer-div"></div>
         <script src="index.js"></script>
 </body>
 
