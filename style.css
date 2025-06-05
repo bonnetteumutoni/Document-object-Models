@@ -34,3 +34,11 @@
     width: 40%;
   }
 }
+#click-button{
+padding: 10px;
+border-radius: 20px;
+border: none;
+width: 30%;
+background-color: rgb(173, 229, 231);
+
+}
