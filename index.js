@@ -74,9 +74,13 @@ items.forEach(item => {
     buttonCartLike.style.justifyContent="space-between";
     buttonCartLike.style.marginTop="20px";
     buttonCartLike.style.marginRight="20px";
+    const paragraph=document.createElement("p");
+    paragraph.textContent="Price: 4$"
+    paragraph.style.color="rgb(131, 42, 72)";
 
     kiwiDiv.appendChild(kiwiImg);
     kiwiDiv.appendChild(addElement);
+    kiwiDiv.appendChild(paragraph);
     fruitList.append(kiwiDiv);
     kiwiDiv.appendChild(reviews);
     kiwiDiv.appendChild(buttonCartLike);
@@ -124,10 +128,14 @@ items.forEach(item => {
     buttonCartLike.style.justifyContent="space-between";
     buttonCartLike.style.marginTop="20px";
     buttonCartLike.style.marginRight="20px";
+    const paragraph=document.createElement("p");
+    paragraph.textContent="Price: 3$"
+    paragraph.style.color="rgb(131, 42, 72)";
 
     likeDiv.appendChild(like)
     appleDiv.appendChild(appleImg);
     appleDiv.appendChild(addfruit);
+    appleDiv.appendChild(paragraph);
     fruitList.append(appleDiv);
     appleDiv.appendChild(reviews);
     appleDiv.appendChild(buttonCartLike);
@@ -191,9 +199,13 @@ itemsVeg.forEach(item => {
     buttonCartLike.style.justifyContent="space-between";
     buttonCartLike.style.marginTop="20px";
     buttonCartLike.style.marginRight="20px";
+    const paragraph=document.createElement("p");
+    paragraph.textContent="Price: 4.5$"
+    paragraph.style.color="rgb(131, 42, 72)";
 
     brocolliDiv.appendChild(brocImg);
     brocolliDiv.appendChild(addElem);
+    brocolliDiv.appendChild(paragraph);
     vegetablesList.append(brocolliDiv);
     brocolliDiv.appendChild(reviews);
     brocolliDiv.appendChild(buttonCartLike);
@@ -248,9 +260,15 @@ itemsVeg.forEach(item => {
     buttonCartLike.style.marginTop="20px";
     buttonCartLike.style.marginRight="20px";
 
+     const paragraph=document.createElement("p");
+    paragraph.textContent="Price: 2.5$"
+    paragraph.style.color="rgb(131, 42, 72)";
+
+
 
     celeryDiv.appendChild(celImg);
     celeryDiv.appendChild(addCel);
+    celeryDiv.appendChild(paragraph);
     celeryDiv.appendChild(reviews);
     celeryDiv.appendChild(buttonCartLike);
     vegetablesList.append(celeryDiv);
