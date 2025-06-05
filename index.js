@@ -369,7 +369,7 @@ lastButtonVeg.addEventListener("click",()=>{
 });
 
 
-const footer=document.getElementsByClassName("footer-div")[0];
+const footer=document.getElementById("footer-div");
 const footerContact=document.createElement("div");
 const breakElement = document.createElement('br');
 footer.append(footerContact);
