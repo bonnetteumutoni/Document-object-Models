@@ -42,3 +42,40 @@ width: 30%;
 background-color: rgb(173, 229, 231);
 
 }
+#fruList{
+  #mango-img{
+    img{
+      width: 350px;
+    }
+  }
+
+    #banana-img{
+    img{
+      width: 270px;
+    }
+  }
+    #melon-img{
+    img{
+      width: 250px;
+    }
+  }
+}
+#vegList{
+  #onion-img{
+    img{
+      width: 150px;
+    }
+  }
+
+    #tomato-img{
+    img{
+      width: 230px;
+    }
+  }
+    #kales{
+    img{
+    width: 250px;
+     height: 250px;
+    }
+  }
+}
