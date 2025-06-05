@@ -35,7 +35,7 @@ vegItems.forEach(item=>{
 const image = document.getElementById('img-container');
 const newImage = document.createElement('img');
 newImage.src = 'Images/back.jpg';
-newImage.width = 1670;
+newImage.width = 2000;
 newImage.height = 600;
 newImage.style.display="block";
 image.appendChild(newImage);
